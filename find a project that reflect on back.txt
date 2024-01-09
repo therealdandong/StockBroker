@@ -1,0 +1,4 @@
+find a project that reflect on backend development. try to do financial. try tracking of simulating position. and able to display data.
+
+
+1. docker to set up basic linux environment for app.
