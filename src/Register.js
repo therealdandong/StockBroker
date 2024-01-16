@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './register.css';
 
 function Register() {
   const [email, setEmail] = useState('');
@@ -11,7 +12,7 @@ function Register() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className='register-form'>
       <h2>Register</h2>
       <input
         type="email"
